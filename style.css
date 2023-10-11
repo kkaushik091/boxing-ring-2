@@ -1,0 +1,62 @@
+
+.square-1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.rectangle-1{
+    height: 100px;
+    width: 600px;
+    background-color:red ;
+}
+
+.circle-1{
+   border-radius: 100px;
+   width: 100px;
+   height: 100px;
+   background: linear-gradient(black , brown);
+}
+
+.rectangle-2{
+    width: 250px;
+    height: 500px;
+    background-color: cadetblue;
+}
+
+.square-2{
+    width: 600px;
+    height: 400px;
+    background-color: chartreuse;
+    
+}
+
+.rectangle-3{
+    width: 600px;
+    height: 100px;
+    background-color: darkmagenta;
+    
+
+}
+
+.rectangle-4{
+    width: 100px;
+    height: 500px;
+    background-color: orangered;
+}
+
+
+
+.main-container-1{
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.main-container-2{
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+
+}
+
