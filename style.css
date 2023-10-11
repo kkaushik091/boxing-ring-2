@@ -1,13 +1,11 @@
 
 .square-1{
-    height: 100px;
-    width: 100px;
+    width: 15%;
     background-color: blue;
 }
 
 .rectangle-1{
-    height: 100px;
-    width: 600px;
+    width: 80%;
     background-color:red ;
 }
 
@@ -19,44 +17,72 @@
 }
 
 .rectangle-2{
-    width: 250px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     background-color: cadetblue;
 }
 
 .square-2{
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    height: 75%;
     background-color: chartreuse;
     
 }
 
 .rectangle-3{
-    width: 600px;
-    height: 100px;
+    width: 100%;
+    height: 15%;
     background-color: darkmagenta;
     
 
 }
 
 .rectangle-4{
-    width: 100px;
-    height: 500px;
     background-color: orangered;
+    width: 100%;
+
 }
 
-
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
 
 .main-container-1{
     display: flex;
     justify-content: space-between;
-    height: 30%;
+    height: 15%;
 }
 
 .main-container-2{
     display: flex;
     justify-content: space-between;
-    height: 70%;
-
+    height: 80%;
+    width: 100%;
 }
 
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.semi-container-1 {
+    display: flex;
+    width: 24%;
+}
+
+.semi-container-2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    width: 48%;
+}
+
+.semi-container-3 {
+    display: flex;
+    width: 24%;
+}
